@@ -116,13 +116,13 @@ Popular Collection
   display: flex;
   justify-content: center;
 }
-.popular-collection h2, .recent-title{
+.popular-collection h2{
   display: flex;
   justify-content: center;
   font-weight: 600;
-font-size: 28px;
-line-height: 70px;
-color: #3A3A3A;
+  font-size: 28px;
+  line-height: 70px;
+  color: #3A3A3A;
 }
 .products{
   display: grid;
@@ -200,6 +200,14 @@ color: #3A3A3A;
   background-color: rgba(240, 255, 255, 0.781);
   display: flex;
   justify-content: space-evenly;
+}
+.recent-title{
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 70px;
+  color: #3A3A3A;
 }
 .recent-product-detail a{
   text-decoration: none;
@@ -309,7 +317,7 @@ mobile view
     text-align: center;
   }
   .button{
-   margin-left: 60px;
+   margin-left: 14%;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -324,11 +332,17 @@ mobile view
     height: 257px;
     left: 57px;
     margin-top: 50%;
-    margin-left: 6%;  
+    margin-left: 5%;  
   }
-  .popular-collection h2, .recent-title{
+  .popular-collection h2{
     height: 24px;
     margin-top: -10%;
+  }
+  .recent-title{
+    height: 24px;
+    margin-top: -10%;
+    margin-bottom: 10%;
+    font-size: 22px;
   }
 
   .products{
@@ -401,7 +415,7 @@ tablet view
     text-align: center;
   }
   .button{
-   margin-left: 32%;
+   margin-left: 30%;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -416,12 +430,17 @@ tablet view
     height: 357px;
     left: 57px;
     margin-top: 38%;
-    margin-left: 20%;
+    margin-left: 19%;
     margin-bottom: 20%;  
   }
-  .popular-collection h2, .recent-title{
+  .popular-collection h2{
     height: 24px;
     margin-top: -5%;
+  }
+  .recent-title{
+    height: 24px;
+    margin-top: -5%;
+    margin-bottom: 10%;
   }
 
   .products{
