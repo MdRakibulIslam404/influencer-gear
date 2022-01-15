@@ -116,7 +116,7 @@ Popular Collection
   display: flex;
   justify-content: center;
 }
-.popular-collection h2{
+.popular-collection h2, .recent-title{
   display: flex;
   justify-content: center;
   font-weight: 600;
@@ -157,7 +157,7 @@ color: #3A3A3A;
   padding: 17px 15px;
   /* width: 77%; */
   width: 329px;
-  height: 476px;
+  height: 500px;
 }
 .product img{
   border-radius: 5px;
@@ -193,3 +193,65 @@ margin-right: 2.3%;
 color: #E02C6D;
 }
 
+/* ------------------------
+ Recently searched section
+------------------------ */
+.searched-products{
+  /* background-color: azure; */
+ display: flex;
+ justify-content: space-evenly;
+}
+.searched-product{
+ width: 12%;
+ height: 20%;
+  
+}
+.recent-product-detail a{
+  text-decoration: none;
+}
+.recent-card{
+  margin-left: 10%;
+}
+/* ---------
+   footer
+--------- */
+footer{
+  background-color: rgba(0, 0, 0, 0.911);
+  display: flex;
+  flex-direction: column;
+}
+.influencer-products{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.influencer-products h5{
+  font-weight: bold;
+font-size: 24px;
+line-height: 36px;
+color: #FFFFFF;
+}
+.influencer-products p{
+  /* font-weight: bold; */
+font-size: 14px;
+line-height: 34px;
+color: #D9DBE1;
+margin-top: -20px;
+}
+.footer-icon{
+  display: flex;
+justify-content: center;
+margin: 15px 0px 35px 0px;
+}
+.footer-icon a{
+color: #FFFFFF;
+width: 32px;
+height: 32px;
+margin: 0px 6px;
+background-color: rgba(151, 151, 151, 0.219);
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 100%;
+text-decoration: none;
+}
